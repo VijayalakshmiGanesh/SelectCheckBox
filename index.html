@@ -6,31 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Select multiple checkbox</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <h1>Use SHIFT Key to select Mutiple checkbox</h1>
+    
     <main>
-        <input type="checkbox" name="item1" id="item1">
-        <label for="item1">Pizza</label><br>
-        <input type="checkbox" name="item2" id="item2">
-        <label for="item2">Pasta</label><br>
-        <input type="checkbox" name="item3" id="item3">
-        <label for="item3">Cheese Balls</label><br>
-        <input type="checkbox" name="item4" id="item4">
-        <label for="item4">Sandwich</label><br>
-        <input type="checkbox" name="item5" id="item5">
-        <label for="item5">Waffles</label><br>
-        <input type="checkbox" name="item6" id="item6">
-        <label for="item6">Pancakes</label><br>
-        <input type="checkbox" name="item7" id="item7">
-        <label for="item7">Nuggets</label><br>
-        <input type="checkbox" name="item8" id="item8">
-        <label for="item8">Fries</label><br>
-        <input type="checkbox" name="item9" id="item9">
-        <label for="item9">Wraps</label><br>
-        <input type="checkbox" name="item10" id="item10">
-        <label for="item10">Smoothies</label><br>
-    </main>
+        <table>
+            <tr>
+                <td><input type="checkbox" name="item1" id="item1" value="Pizza"></td>
+                    
+                <td><label for="item1">Pizza</label><br></td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="item2" id="item2" value="Pasta"></td>
+                   
+                <td> <label for="item2">Pasta</label></td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="item3" id="item3" value="CheeseBalls">
+                    </td>
+                <td><label for="item3">Cheese Balls</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item4" id="item4" value="Sandwich">
+                    </td>
+                <td><label for="item4">Sandwich</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item5" id="item5" value="Waffles">
+                   </td>
+                <td> <label for="item5">Waffles</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item6" id="item6" value="Pancakes">
+                    </td>
+                <td><label for="item6">Pancakes</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item7" id="item7" value="Nuggets">
+                    </td>
+                <td><label for="item7">Nuggets</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="item8" id="item8" value="Fries">
+                    </td>
+                <td><label for="item8">Fries</label></td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="item9" id="item9" value="Wraps">
+                    </td>
+                <td><label for="item9">Wraps</label></td>
+            </tr>
+            <tr>
+                <td> <input type="checkbox" name="item10" id="item10" value="Smoothies">
+                    </td>
+                <td><label for="item10">Smoothies</label></td>
+            </tr>
+        </table>
+        <p class="result"></p>
     <script src="main.js"></script>
 </body>
 
